@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown --recursive=guillaume betty hello
+sudo chown --recursive=betty guillaume hello
