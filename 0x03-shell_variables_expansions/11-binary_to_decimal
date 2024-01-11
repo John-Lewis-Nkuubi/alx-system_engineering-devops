@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Binary: $BINARY" && echo -n "Decimal: " && echo "ibase=2; $BINARY" | bc
+echo $((($BINARY * 2)**{0..9}))
